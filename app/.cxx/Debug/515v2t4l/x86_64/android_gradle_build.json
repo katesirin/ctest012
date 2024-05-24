@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/prame/StudioProjects/ctest012/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/prame/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/prame/StudioProjects/ctest012/app/.cxx/Debug/515v2t4l/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/prame/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/prame/StudioProjects/ctest012/app/.cxx/Debug/515v2t4l/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ctest012::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ctest012",
+      "output": "/home/prame/StudioProjects/ctest012/app/build/intermediates/cxx/Debug/515v2t4l/obj/x86_64/libctest012.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/prame/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/prame/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
